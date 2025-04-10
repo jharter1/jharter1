@@ -1,10 +1,21 @@
-- 👋 Hi, I’m @jharter1, also known as Jack Harter.
-- 👀 I’m interested in playing with all sorts of free and cheap-ish services and software, from Azure to Ubuntu and a few others. 
-- 🌱 I’m currently learning docker-compose, kustomize, network firewalls and all sorts of container and cloud stuff.
-- 🧠 I’m looking to collaborate on whatever pays the bills.
-- 📫 How to reach me: check out my linktree: https://linktr.ee/jackharter
+# 👋 Hey there, I'm Jack Harter (@jharter1)
 
-<!---
-jharter1/jharter1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+💻 Tech-tinkerer, homelab-constructor, and explorer of the cloudy & containerized.  
+I love diving into the weird and wild world of self-hosted software, cloud services, and everything within them.
+
+## 🚀 What I'm Into Right Now
+- 🔧 Playing with **Docker Compose**, **Kustomize**, and **network firewalls**
+- 🧪 Experimenting with **Nomad**, **Consul**, **Vault**, and GitOps workflows
+- 🧵 Building my home lab around **automation**, **monitoring**, and **cool self-hosted tools**
+
+## 🧠 Always Learning
+- Cloud-native patterns
+- Network security and resilience
+- Making things "just work"™ in strange and unknown environments
+
+## 🤝 Let's Connect
+- 🌐 [Linktree](https://linktr.ee/jackharter) — socials, contact, etc.
+- 📫 Open to chatting, collaborating, or just geeking out.
+
+## ⚡ Fun Fact
+My home lab has probably restarted more than your router—and that’s a *good* thing. 😄
