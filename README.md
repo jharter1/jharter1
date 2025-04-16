@@ -11,7 +11,7 @@ I love diving into the weird and wild world of self-hosted software, cloud servi
 ## 🧠 Always Learning
 - Cloud-native patterns
 - Network security and resilience
-- Making things "just work"™ in strange and unknown environments
+- Making things just_work™ in strange and unknown environments
 
 ## 🤝 Let's Connect
 - 🌐 [Linktree](https://linktr.ee/jackharter) — socials, contact, etc.
