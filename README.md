@@ -18,4 +18,4 @@ I love getting into the weird and wild world of self-hosted software, cloud serv
 - 📫 Open to chatting, collaborating, or just enjoying a fine craft beverage.
 
 ## ⚡ Fun Fact
-My home lab has probably restarted more than your router—and that’s just life, honey. 🐝
+My home lab is gradually growing to take over my house. Hopefully it likes me. 🫣
