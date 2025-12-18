@@ -1,9 +1,8 @@
-# 🚀 Jack Harter | Digital Architect & Strange World Explorer
+# 🚀 Jack Harter | Trailblazer of Strange Worlds
 
 **Adventurous Vagabond • Cloud-Native Polyglot • Homelab Hooplehead**
 
-I thrive in the "weird and wild" corners of the tech world. 
-From orchestrating complex container lifecycles to hardening network perimeters, I build resilient digital ecosystems that bridge the gap between scripts, hardware, and self-aware automation.
+I thrive in the weird and wild corners of the tech world. To me, computing is about the natural curiosity of how things work—and how they can be made better. From orchestrating container lifecycles to hardening network firewalls, I build resilient digital ecosystems that bridge the gaps between scripts, hardware, ML, and automation.
 
 ---
 
@@ -14,33 +13,37 @@ From orchestrating complex container lifecycles to hardening network perimeters,
 ![Vault](https://img.shields.io/badge/Vault-FF3E00?style=for-the-badge&logo=hashicorp&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
 
-### 🛰️ Mission Log: Recent Expeditions
-* **The Nomad Frontier:** Scaling a high-availability cluster across a trio of Micro PCs.
-* **GitOps & Automation:** Refining **Kustomize** and **Consul** to ensure everything is versioned, verified, and "just_works™".
-* **Network Hardening:** Deep-diving into firewall resilience to create a fortress for cloud and self-hosted services.
-* **Artifact Musing:** Learning all I can about Unix, Vim, Bash, Git, and all the rough edges that keep us connected.
+### 🛰️ Recent Expeditions
+* **The Nomad Frontier:** Scaling a high-availability cluster across a trio of on-prem, at-home PCs.
+* **GitOps & Automation:** Refining **Kustomize** and **Consul** to ensure everything is versioned, verified, and just_works™.
+* **Network Hardening:** Deep-diving into firewall resilience to create a fort for cloud and self-hosted services.
+* **Artifact Musing:** Digging into the aelder magick—Unix, Vim, Bash, Git, and the unforgiving edges that keep us connected.
 
-### 🧠 The Pursuit of Brilliance
-I love tutorials; and after they're done, I architect solutions for strange and unknown environments.
-* **Resilience:** Building systems that survive the chaos of digital gremlins and physical disasters.
-* **Security:** Implementing Vault for secrets management because "good enough" isn't quite good, or enough.
-* **Creativity:** Finding the perfect balance between high-end aesthetics and the raw power reliability.
+### ⚙️ The Configs (Dotfiles)
+I believe in keeping my tools sharp and my environments reproducible. You can find my system configurations here:
+👉 **[jharter1/configs](https://github.com/jharter1/configs)** — *Where the hacky meets the refined.*
 
 ---
 
-### 🤝 Let's Collaborate
-I’m always open to chatting about cloud-native patterns, homelab hardware, or the best Midwestern craft beers.
+### 🧠 Perspective & Philosophy
+I’m inspired by the pioneers who viewed computing as a tool for human progress and a playground for the mind.
+* **Resilience:** Building systems that survive the chaos of digital gremlins and physical disasters.
+* **Security:** Implementing secrets management because "good enough" isn't quite good, or enough.
+* **The Hacker Ethic:** Pursuing technical elegance not for the sake of the market, but for the sake of the craft.
 
-If you're somewhere near Cook County IL, let's meet up for some beer, coffee, or a fun run.
+---
 
-* **Connect:** [Linktree (Socials & Contact)](https://linktr.ee/jackharter)
-* **Status:** Open to collaboration on open-source projects or networking architecture.
+### 🤝 Let's Connect
+I’m always open to chatting about cloud-native patterns, homelab hardware, or the best Midwestern craft brews. 
+
+**Based in Cook County, IL.** If you're in town, let's grab a beer, a coffee, or hit the trail for a run.
+
+* 🌐 **[Linktree](https://linktr.ee/jackharter)** — Socials, contact, and more.
+* 🏗️ **Status:** Open to collaboration on open-source projects or networking architecture.
 
 ---
 
 ### ⚡ The "Secret Sauce"
-> **Fun Fact:** My current production stack is a Proxmox VE cluster running Nomad on three Lenovo ThinkCentre micros.
-> It used to be all stored on an M1 Mac Mini, but Apple doesn't really jive with upgrades or screwdrivers.
-> This lets me experiment, expand, and learn more about the Hashicorp ecosystem.
+> **Fun Fact:** My current production stack is a Proxmox VE cluster running Nomad on three Lenovo ThinkCentre micros. It used to live on an M1 Mac Mini, but Apple doesn't really jive with screwdrivers or upgrades. This setup gives me the freedom to break things, expand, and gradually master the Hashicorp ecosystem.
