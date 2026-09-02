@@ -14,6 +14,7 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### 🛰️ Recent Expeditions
 * **The Nomad Frontier:** Scaling a high-availability cluster across a trio of on-prem, at-home PCs.
