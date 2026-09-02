@@ -11,7 +11,7 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Nomad](https://img.shields.io/badge/Nomad-05d270?style=for-the-badge&logo=hashicorp&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Vault](https://img.shields.io/badge/Vault-FF3E00?style=for-the-badge&logo=hashicorp&logoColor=white)
+![Vault](https://img.shields.io/badge/HashiCorp%20Vault-%23FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
