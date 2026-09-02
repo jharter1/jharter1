@@ -76,4 +76,4 @@ I'm always open to chatting about cloud-native patterns, homelab hardware, or th
 ---
 
 ### ⚡ The "Secret Sauce"
-> **Fun Fact:** My current production stack is a Proxmox VE cluster running Nomad on three Lenovo ThinkCentre micros. It used to live on an M1 Mac Mini, but Apple doesn't really jive with screwdrivers or upgrades. This setup gives me the freedom to break things, expand, and gradually master the Hashicorp ecosystem.
+> **Fun Fact:** My current production stack is a 3-node Talos Linux Kubernetes cluster — all control-plane, no SSH, no package manager, config or nothing — running on the same trio of Lenovo ThinkCentre micros. One ArgoCD app-of-apps bootstraps the whole thing and reconciles ~30 downstream apps, from Longhorn and Vault to Jellyfin, Immich, and Home Assistant. It used to live on an M1 Mac Mini, then moved to Nomad on Proxmox — now it's fully GitOps'd, immutable-OS Kubernetes. Progress, mostly.
