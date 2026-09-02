@@ -6,6 +6,20 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 
 📍 Cook County, IL &nbsp;·&nbsp; 🌐 [j.hartr.net](https://j.hartr.net) &nbsp;·&nbsp; 🔗 [Linktree](https://linktr.ee/jackharter)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jharter1/jharter1/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jharter1/jharter1/output/github-contribution-grid-snake.svg" />
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/jharter1/jharter1/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+### 🔭 Currently
+* Wiring **Atlantis** into the homelab for GitOps'd Terraform plan/apply straight from PR comments
+* Hardening DNS with **Pi-hole + Unbound** as a local recursive resolver — no more upstream dependency
+* Standing up a **Tailscale exit node** and a network-overview Grafana dashboard
+* Tracking homelab spend with **OpenCost**
+
 ---
 
 ### 🛠️ Professional & Cloud-Native Stack
@@ -23,13 +37,29 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 
 ### 🏠 Home Lab Stack
 
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-![Nomad](https://img.shields.io/badge/Nomad-05d270?style=for-the-badge&logo=hashicorp&logoColor=white)
+![Talos](https://img.shields.io/badge/Talos%20Linux-FF6B35?style=for-the-badge&logo=talos&logoColor=white)
 ![Vault](https://img.shields.io/badge/HashiCorp%20Vault-%23FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
-![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+![Longhorn](https://img.shields.io/badge/Longhorn-16C2A2?style=for-the-badge&logo=longhorn&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+
+<details>
+<summary>🗺️ Home Lab Architecture</summary>
+
+```mermaid
+graph TD
+    A["app-of-apps<br/>(root Application)"] -->|bootstraps| B["ArgoCD<br/>(GitOps controller)"]
+
+    B -->|reconciles| C["Infra<br/>Vault · Longhorn · MinIO · cert-manager<br/>Prometheus/Grafana · Loki · Tempo · Thanos"]
+    B -->|deploys| D["Apps<br/>Jellyfin · Immich · Vaultwarden<br/>Home Assistant · Forgejo · ARC runners"]
+
+    C --> E["3-node Talos Linux cluster<br/>(bare metal, all control-plane)"]
+    D --> E
+```
+
+</details>
 
 ---
 
@@ -37,16 +67,17 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 
 | Project | What it is |
 |---|---|
-| 🏗️ **[hashi_homelab](https://github.com/jharter1/hashi_homelab)** | Full IaC stack for Proxmox VE — Packer-built Debian templates, Terraform-provisioned multi-node Nomad/Consul cluster, Vault, Traefik ingress, and a Prometheus + Grafana + Loki observability stack. |
-| ⚙️ **[hashi-homelab-ansible](https://github.com/jharter1/hashi-homelab-ansible)** | Ansible roles that configure and maintain the homelab cluster — idempotent, reproducible node config. |
+| 🐢 **Talos K8s Homelab** *(private)* | 3-node, all-control-plane Talos Linux Kubernetes cluster, bare metal. GitOps'd through a single ArgoCD app-of-apps reconciling ~30 infra components (Longhorn, Vault, cert-manager, Prometheus/Grafana/Loki/Tempo/Thanos) and ~20 self-hosted apps (Jellyfin, Immich, Vaultwarden, Home Assistant, self-hosted CI runners via ARC). |
 | ☁️ **[argocd-gke-cost-optimized](https://github.com/jharter1/argocd-gke-cost-optimized)** | Cost-optimized ArgoCD deployment on GKE using Terraform and NGINX ingress. |
+| 🏗️ **[hashi_homelab](https://github.com/jharter1/hashi_homelab)** | Predecessor stack — Packer-built Debian templates, Terraform-provisioned Nomad/Consul cluster, Vault, and a Prometheus + Grafana + Loki observability stack on Proxmox VE. |
+| ⚙️ **[hashi-homelab-ansible](https://github.com/jharter1/hashi-homelab-ansible)** | Ansible roles that configured and maintained the Nomad-era homelab cluster. |
 | 🖥️ **[jharter1.github.io](https://github.com/jharter1/jharter1.github.io)** | My Jekyll-based portfolio site at [j.hartr.net](https://j.hartr.net) — theme-aware, WCAG 2.1 AA compliant, with an automated PR review workflow. |
 | 🔩 **[configs](https://github.com/jharter1/configs)** | Dotfiles and system configs I keep sharp and reproducible across machines. |
 
 ### 🛰️ Recent Expeditions
-* **The Nomad Frontier:** Standing up `hashi_homelab` — a from-scratch Packer → Terraform → Ansible pipeline for a self-healing Nomad/Consul cluster across three on-prem, at-home nodes.
+* **The Great Migration:** Tore down the Nomad/Proxmox stack and rebuilt as a 3-node, all-control-plane Talos Linux Kubernetes cluster — no SSH, no package manager, fully declarative machine config.
+* **One App-of-Apps to Rule Them All:** GitOps'd the entire homelab through a single ArgoCD root Application, reconciling everything from Longhorn and Vault to Jellyfin, Immich, and self-hosted CI runners.
 * **Cost-Conscious Cloud-Native:** Shipping `argocd-gke-cost-optimized`, a leaner ArgoCD-on-GKE pattern using Terraform and NGINX ingress instead of pricier managed defaults.
-* **GitOps & Automation:** Refining Kustomize and Consul so infra stays versioned, verified, and just_works™.
 * **Network Hardening:** Deep-diving into firewall resilience to create a fort for cloud and self-hosted services.
 * **Artifact Musing:** Digging into the elder magick — Unix, Vim, Bash, Git, and the unforgiving edges that keep us connected.
 
