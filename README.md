@@ -9,6 +9,9 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 ### 🛠️ The Tech Arsenal
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
+![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white)
 ![Nomad](https://img.shields.io/badge/Nomad-05d270?style=for-the-badge&logo=hashicorp&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Vault](https://img.shields.io/badge/HashiCorp%20Vault-%23FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
@@ -20,6 +23,7 @@ I thrive in the weird and wild corners of the tech world. To me, computing is ab
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
 
 ### 🛰️ Recent Expeditions
 * **The Nomad Frontier:** Scaling a high-availability cluster across a trio of on-prem, at-home PCs.
