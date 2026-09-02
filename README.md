@@ -64,15 +64,6 @@ I'm inspired by the pioneers who viewed computing as a tool for human progress a
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jharter1&show_icons=true&hide_title=true&count_private=true&theme=tokyonight" alt="Jack's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jharter1&layout=compact&hide=html&theme=tokyonight" alt="Top languages" />
-</p>
-
----
-
 ### 🤝 Let's Connect
 I'm always open to chatting about cloud-native patterns, homelab hardware, or the best Midwestern craft brews.
 
